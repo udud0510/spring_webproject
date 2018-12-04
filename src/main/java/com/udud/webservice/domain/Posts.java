@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Getter
 @Entity
 
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id
     @GeneratedValue
@@ -34,6 +34,4 @@ public class Posts {
         this.content=content;
         this.author=author;
     }
-
-
 }
