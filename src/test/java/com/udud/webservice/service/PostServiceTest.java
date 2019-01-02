@@ -1,5 +1,6 @@
 package com.udud.webservice.service;
 
+import com.udud.webservice.domain.posts.Posts;
 import com.udud.webservice.domain.posts.PostsRepository;
 import com.udud.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
