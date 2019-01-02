@@ -1,6 +1,4 @@
 package com.udud.webservice.domain.posts;
-import com.udud.webservice.domain.Posts;
-import com.udud.webservice.domain.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

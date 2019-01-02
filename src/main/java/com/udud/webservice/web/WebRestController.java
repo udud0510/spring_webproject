@@ -1,6 +1,5 @@
 package com.udud.webservice.web;
 
-import com.udud.webservice.domain.PostsRepository;
 import com.udud.webservice.dto.posts.PostsSaveRequestDto;
 import com.udud.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
@@ -21,7 +20,7 @@ public class WebRestController {
     }
 
     @PostMapping("/posts")
-    public Long savePosts (@RequestBody PostsSaveRequestDto dto){
+    public Long savePosts(@RequestBody PostsSaveRequestDto dto){
         return postsService.save(dto);
     }
 }

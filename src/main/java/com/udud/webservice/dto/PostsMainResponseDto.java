@@ -1,6 +1,6 @@
 package com.udud.webservice.dto;
 
-import com.udud.webservice.domain.Posts;
+import com.udud.webservice.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

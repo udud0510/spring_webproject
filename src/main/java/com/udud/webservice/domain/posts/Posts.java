@@ -1,5 +1,6 @@
-package com.udud.webservice.domain;
+package com.udud.webservice.domain.posts;
 
+import com.udud.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -10,10 +11,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@NoArgsConstructor(access= AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity
-
 public class Posts extends BaseTimeEntity {
 
     @Id
@@ -29,9 +29,9 @@ public class Posts extends BaseTimeEntity {
     private String author;
 
     @Builder
-    public Posts(String title, String content, String author){
-        this.title=title;
-        this.content=content;
-        this.author=author;
+    public Posts(String title, String content, String author) {
+        this.title = title;
+        this.content = content;
+        this.author = author;
     }
 }
